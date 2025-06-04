@@ -4,6 +4,8 @@ metadata:
   name: webapp-primary
   labels:
     app: webapp
+  annotations:
+    harness.io/primary-service: "true"
 spec:
   type: ClusterIP
   selector:
