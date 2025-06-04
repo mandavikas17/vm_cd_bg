@@ -1,14 +1,12 @@
+---
 apiVersion: v1
 kind: Service
 metadata:
-  name: myapp-service
-  labels:
-    app: myapp
+  name: webapp-primary
 spec:
-  type: ClusterIP
   selector:
-    app: myapp
-    version: <+deployment.identifier>
+    app: webapp
+    version: green # Initially points to green
   ports:
     - port: 80
       targetPort: 8080
