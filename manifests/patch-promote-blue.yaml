@@ -1,6 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
+  name: webapp-blue-blue
   annotations:
     harness.io/direct-apply: "true"
 spec:
