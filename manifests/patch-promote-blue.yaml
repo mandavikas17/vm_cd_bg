@@ -8,7 +8,5 @@ spec:
   template:
     metadata:
       labels:
+        app: webapp
         harness.io/color: green
-  selector:
-    matchLabels:
-      harness.io/color: green
