@@ -4,6 +4,8 @@ metadata:
   name: webapp-primary-stage
   labels:
     app: webapp
+  annotations:
+    harness.io/stage-service: "true"
 spec:
   type: ClusterIP
   selector:
