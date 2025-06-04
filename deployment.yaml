@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: myapp-<+service.variables.COLOR>
+  name: myapp<+service.variables.COLOR>
   labels:
     app: myapp
     version: <+service.variables.COLOR>
