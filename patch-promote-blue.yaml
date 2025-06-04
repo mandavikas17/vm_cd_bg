@@ -1,0 +1,12 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: webapp-blue-blue
+spec:
+  template:
+    metadata:
+      labels:
+        harness.io/color: green
+  selector:
+    matchLabels:
+      harness.io/color: green
