@@ -1,12 +1,12 @@
-apiVersion: apps/v1
-kind: Deployment
-metadata:
-  name: webapp-blue-blue
-  annotations:
-    harness.io/direct-apply: "true"
-spec:
-  template:
-    metadata:
-      labels:
-        app: webapp
-        harness.io/color: green
+# apiVersion: apps/v1
+# kind: Deployment
+# metadata:
+#   name: webapp-blue-blue
+#   annotations:
+#     harness.io/direct-apply: "true"
+# spec:
+#   template:
+#     metadata:
+#       labels:
+#         app: webapp
+#         harness.io/color: green
